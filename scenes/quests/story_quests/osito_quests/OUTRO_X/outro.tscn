@@ -124,7 +124,7 @@ material = ExtResource("5_rbmgw")
 position = Vector2(38, 74)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
-frame = 1
+frame = 4
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TileMapLayers/Equipo2OutroTrees/AnimatedSprite2D2"]
@@ -132,7 +132,7 @@ material = ExtResource("5_rbmgw")
 position = Vector2(220, -3)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
-frame = 4
+frame = 3
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TileMapLayers/Equipo2OutroTrees/AnimatedSprite2D2/AnimatedSprite2D"]
@@ -140,7 +140,7 @@ material = ExtResource("5_rbmgw")
 position = Vector2(681, 16)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
-frame = 4
+frame = 3
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TileMapLayers/Equipo2OutroTrees/AnimatedSprite2D2/AnimatedSprite2D/AnimatedSprite2D"]
@@ -148,7 +148,7 @@ material = ExtResource("5_rbmgw")
 position = Vector2(-92, -10)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
-frame = 5
+frame = 2
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TileMapLayers/Equipo2OutroTrees/AnimatedSprite2D2/AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D"]
@@ -163,7 +163,7 @@ material = ExtResource("5_rbmgw")
 position = Vector2(-292, -10)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
-frame = 3
+frame = 5
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TileMapLayers/Equipo2OutroTrees/AnimatedSprite2D2/AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D"]
@@ -171,6 +171,7 @@ material = ExtResource("5_rbmgw")
 position = Vector2(121, -40)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
+frame = 2
 script = ExtResource("7_felwy")
 
 [node name="Garden" type="Node2D" parent="TileMapLayers"]
@@ -209,31 +210,23 @@ position = Vector2(734, 311)
 texture = ExtResource("5_qsut3")
 
 [node name="NdCrochenthemum02" type="Sprite2D" parent="TileMapLayers/Garden"]
-position = Vector2(690, 377)
-texture = ExtResource("6_c7rvb")
-
-[node name="NdCrochenthemum03" type="Sprite2D" parent="TileMapLayers/Garden"]
-position = Vector2(657, 338)
+position = Vector2(768, 271)
 texture = ExtResource("6_c7rvb")
 
 [node name="14" type="Sprite2D" parent="TileMapLayers/Garden"]
-position = Vector2(612, 359)
+position = Vector2(733, 466)
 texture = ExtResource("7_4yodc")
 
 [node name="14" type="Sprite2D" parent="TileMapLayers/Garden/14"]
-position = Vector2(-519, -19)
-texture = ExtResource("7_4yodc")
-
-[node name="15" type="Sprite2D" parent="TileMapLayers/Garden/14"]
-position = Vector2(122, 110)
+position = Vector2(-640, -128)
 texture = ExtResource("7_4yodc")
 
 [node name="15" type="Sprite2D" parent="TileMapLayers/Garden"]
-position = Vector2(654, 368)
+position = Vector2(688, 375)
 texture = ExtResource("8_r0ix5")
 
 [node name="Scarecrow" type="Sprite2D" parent="TileMapLayers/Garden"]
-position = Vector2(644, 288)
+position = Vector2(690, 241)
 texture = ExtResource("9_j208y")
 
 [node name="16" type="Sprite2D" parent="TileMapLayers/Garden"]
@@ -241,7 +234,7 @@ position = Vector2(-42, 355)
 texture = ExtResource("10_v2hjf")
 
 [node name="17" type="Sprite2D" parent="TileMapLayers/Garden"]
-position = Vector2(618, 376)
+position = Vector2(714, 405)
 texture = ExtResource("11_igupu")
 
 [node name="Tower" type="Sprite2D" parent="TileMapLayers/Garden"]
@@ -257,21 +250,18 @@ unique_name_in_owner = true
 position = Vector2(-453, 256)
 sprite_frames = ExtResource("17_4hf0w")
 autoplay = "default"
-frame = 2
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TileMapLayers/Garden/CastleBlue/AnimatedSprite2D"]
 position = Vector2(125, -1)
 sprite_frames = ExtResource("18_ywix2")
 autoplay = "default"
-frame = 1
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TileMapLayers/Garden/CastleBlue/AnimatedSprite2D/AnimatedSprite2D"]
 position = Vector2(5, -188)
 sprite_frames = ExtResource("18_ywix2")
 autoplay = "default"
-frame = 1
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="TileMapLayers/Garden/CastleBlue/AnimatedSprite2D"]
@@ -279,26 +269,26 @@ unique_name_in_owner = true
 position = Vector2(190, -185)
 sprite_frames = ExtResource("17_4hf0w")
 autoplay = "default"
-frame = 3
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="TileMapLayers/Garden/CastleBlue/AnimatedSprite2D"]
 position = Vector2(769, 4)
 sprite_frames = ExtResource("17_4hf0w")
 autoplay = "default"
-frame = 3
+frame = 1
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TileMapLayers/Garden/CastleBlue/AnimatedSprite2D/AnimatedSprite2D3"]
 position = Vector2(125, -1)
 sprite_frames = ExtResource("18_ywix2")
 autoplay = "default"
+frame = 3
 script = ExtResource("7_felwy")
 
 [node name="Sprite2D2" type="Sprite2D" parent="TileMapLayers/Garden"]
 modulate = Color(1, 0.91764706, 0, 1)
 self_modulate = Color(1, 0.9137255, 0.20392157, 1)
-position = Vector2(174, 360)
+position = Vector2(529, 315)
 texture = ExtResource("19_c06hj")
 
 [node name="Sprite2D2" type="Sprite2D" parent="TileMapLayers/Garden/Sprite2D2"]
@@ -392,7 +382,7 @@ material = ExtResource("5_rbmgw")
 position = Vector2(519, 581)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
-frame = 3
+frame = 4
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="AnimatedSprite2D/AnimatedSprite2D"]
@@ -400,7 +390,7 @@ material = ExtResource("5_rbmgw")
 position = Vector2(-159, -22)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
-frame = 4
+frame = 5
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D"]
@@ -408,7 +398,7 @@ material = ExtResource("5_rbmgw")
 position = Vector2(-124, 15)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
-frame = 4
+frame = 5
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D"]
@@ -416,7 +406,7 @@ material = ExtResource("5_rbmgw")
 position = Vector2(-139, 28)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
-frame = 2
+frame = 5
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D"]
@@ -425,7 +415,6 @@ position = Vector2(-134, -3)
 scale = Vector2(1.0625, 1.328125)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
-frame = 3
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D/AnimatedSprite2D"]
@@ -443,13 +432,14 @@ position = Vector2(-170.94724, 1.8065767)
 scale = Vector2(1.0326486, 0.9680094)
 sprite_frames = ExtResource("6_k6uuc")
 autoplay = "default"
+frame = 1
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 position = Vector2(165, 212)
 sprite_frames = ExtResource("26_5hv3q")
 autoplay = "default"
-frame = 3
+frame = 2
 script = ExtResource("7_felwy")
 
 [node name="BlueFire" type="AnimatedSprite2D" parent="AnimatedSprite2D2"]
@@ -466,6 +456,7 @@ frame_progress = 0.35557827
 position = Vector2(-70, 127)
 sprite_frames = ExtResource("26_5hv3q")
 autoplay = "default"
+frame = 2
 script = ExtResource("7_felwy")
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="AnimatedSprite2D2/AnimatedSprite2D4"]
